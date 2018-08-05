@@ -1,0 +1,43 @@
+html,
+body {
+	height: 100%;
+	font-family: arial;
+	margin: 0;
+}
+#menudiv{
+	background: black;
+	height: 5vh;
+	width: inherit;
+}
+#fixedmemu {
+	width: inherit;
+	height: inherit;
+	float: left;
+	text-align: center;
+}
+#menubutton {
+	line-height: 5vh;
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	margin-left: -1vw;
+	margin-right: 3vw;
+}
+#menubutton:hover{
+	background: white;
+	color: black;
+}
+#content{
+	height: 100vh;
+	background: #FEFEFE;
+}
+.requestform{
+	margin-left: 1vw;
+	margin-top: 2vh;
+}
+#tutorialtext
+{
+	margin-left: 1vw; 
+	margin-top: 2vh;
+}
